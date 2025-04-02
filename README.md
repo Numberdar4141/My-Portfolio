@@ -7,7 +7,7 @@
 
 <center>
 
-https://dsfolio-v1.vercel.app/
+https://portfolionaveenkumar.netlify.app/
 
 </center>
 
