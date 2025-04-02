@@ -4,8 +4,9 @@ import { FaBuildingUser } from "react-icons/fa6";
 import { FcGoogle } from "react-icons/fc";
 import { PiCertificateFill } from "react-icons/pi";
 import { SiHackerrank, SiVodafone } from "react-icons/si";
-import cyber from "../../../public/cyber.jfif"
-import IITKgp from "../../../public/iitkgp.jfif";
+import cyber from "/cyber.jfif"
+import IITKgp from "/iitkgp.jfif";
+import amcat from "/amcat.png";
 
 function EducationAndExperience() {
   return (
@@ -75,13 +76,15 @@ function EducationAndExperience() {
                    <img className="absolute right-5 top-3 w-9" src={cyber} alt="CyberCure" />
                     ) : cert.icon === "vodafone" ? (
                       <SiVodafone className="text-red-500 absolute right-5 top-3 text-3xl" />
+                    ) : cert.icon === "amcat" ? (
+                      <img className="absolute bg-white right-5 top-3 w-14 p-1" src={amcat} alt="CyberCure" />
                     ) : (
                       <img className="absolute right-5 top-3 w-9" src={IITKgp} alt="CyberCure" />
                     )}
 
                     <div className="flex justify-center items-center h-full bg-gray-100 p-6 dark:bg-neutral-900">
                       <div className="hs-tooltip [--placement:bottom] inline-block">
-                        <a  target="_blank" rel="noreferrer" className="hs-tooltip-toggle text-center text-gray-800 dark:text-white hover:text-red-800 hover:dark:text-red-500">
+                        <a  href={cert.link} target="_blank" rel="noreferrer" className="hs-tooltip-toggle text-center text-gray-800 dark:text-white hover:text-red-800 hover:dark:text-red-500">
                           {/* =========== CERTIFICATE NAME =========== */}
                           <p className=" transition duration-700 px-6 font-bold">
                             {cert.title}
@@ -93,9 +96,9 @@ function EducationAndExperience() {
                         </a>
 
                         {/* =========== TOOLTIP TEXT =========== */}
-                        {/* <span className="hs-tooltip-content hs-tooltip-shown:opacity-100 hs-tooltip-shown:visible opacity-0 transition-opacity inline-block absolute invisible z-10 py-1 px-2 bg-white border dark:border-zinc-800 dark:bg-zinc-950 text-xs font-medium dark:text-white rounded shadow-sm" role="tooltip">
+                        <span className="hs-tooltip-content hs-tooltip-shown:opacity-100 hs-tooltip-shown:visible opacity-0 transition-opacity inline-block absolute invisible z-10 py-1 px-2 bg-white border dark:border-zinc-800 dark:bg-zinc-950 text-xs font-medium dark:text-white rounded shadow-sm" role="tooltip">
                           Open Certificate
-                        </span> */}
+                        </span>
                       </div>
                     </div>
                   </div>

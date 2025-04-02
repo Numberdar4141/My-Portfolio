@@ -115,16 +115,28 @@ const info = {
     // ============ CERTIFICATES ============
     certificates: [
         {
+            title: "AMCAT Certified Engineering Trainee Certificate",
+            description: "Provided by Aspiring Minds",
+            icon: "amcat",
+            link: "https://www.myamcat.com/amcat-report?hash=eyJpdiI6IjBlbHBSY05SOGZVTlJjd002M2VjcUE9PSIsInZhbHVlIjoibE04RE1cL08yRVNqUUpVYmJGVTR2S09wbjZ6eHcxRHdUc0Vzd3dUTXJiQTg9IiwibWFjIjoiNGRkMGQ4OWZjZDQwNjZiYWQ1MTgyYzZhM2VlYTkyNWViYWRkYmYwZjY4ZmIzODQ0OGEzYWE1YWEyZDQzMWNmMyJ9"
+        },
+        {
             title: "MERN Stack Development Certificate",
-            description: "Provided by CyberCure Technologies",
+            description: "Provided by CyberCure Technologies Pvt. Ltd.",
             icon: "cybercure",
-            link: "https://www.coursera.org/account/accomplishments/verify/S9773NBEK4S6"
+            link: "https://www.cybercure.in/cert/certificate.php"
         },
         {
             title: "Master in React.js Certificate",
             description: "Provided by Vodafone Intelligent Solutions (VOIS)",
             icon: "vodafone",
-            link: "https://www.credly.com/badges/fa00026a-4db5-4269-ab4f-340f5382ac03",
+            link: "https://drive.google.com/file/d/1Od0PgBunOKWzwkWw7zw7H8zkosbQTqcF/view?usp=drivesdk",
+        },
+        {
+            title: "Salesforce Cloud Solutions Certifications",
+            description: "Provided by Vodafone Intelligent Solutions (VOIS)",
+            icon: "vodafone",
+            link: "https://drive.google.com/file/d/1IZGCnR0KFYKI39h4AlTqNnkUJNZNO1jd/view?usp=drivesdk",
         },
         {
             title: "Campus Ambassador Program Certificate",
