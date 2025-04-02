@@ -34,7 +34,7 @@ const info = {
             description: "Developed a wheat grinding platform enabling customers to order various types of freshly milled wheat with doorstep delivery. Optimized the ordering process, reducing checkout time by 35%. ",
             technologies: "React.js, Tailwind CSS, Material UI",
             duration: "Jan 2025 - Feb 2025",
-            link: "Link",
+            link: "https://app.sabpure.com/",
             company: "SabPure"
         },
 
