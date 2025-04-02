@@ -1,8 +1,8 @@
 
-# DSFolio V1
+# Naveen Kumar Portfolio
 
 <center>
-    <img src="/public/photo1.jpg" alt="naveen" />
+    <img src="/public/cover.png" alt="naveen" />
 </center>
 
 <center>
