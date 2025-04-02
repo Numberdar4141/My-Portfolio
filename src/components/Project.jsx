@@ -1,6 +1,8 @@
-import { CiLink } from "react-icons/ci";
 
-function Project({ title, description, technologies, link, github }) {
+import { CiLink } from "react-icons/ci";
+import { LiaIndustrySolid } from "react-icons/lia";
+
+function Project({ title, description, technologies, link, github,company }) {
   return (
     <div className="hover:bg-zinc-100 hover:dark:bg-zinc-900 transition-all duration-300 p-6 md:rounded-xl">
       <div className="flex gap-2 overflow-x-scroll py-2">
@@ -25,19 +27,28 @@ function Project({ title, description, technologies, link, github }) {
 
       <div className="flex gap-6 text-zinc-600 dark:text-zinc-300 font-medium">
         {/* =========== PROJECT LINK =========== */}
-        <a href={link} className="flex gap-2 mt-4 hover:text-red-800 hover:dark:text-red-500 cursor-pointer transition-all duration-300">
+        <a href={link} target="_blank" rel="noopener noreferrer" className="flex gap-2 mt-4 hover:text-red-800 hover:dark:text-red-500 cursor-pointer transition-all duration-300">
           <CiLink className="text-2xl self-center" />
           <span className="text-xs self-center">
             View Project
           </span>
         </a>
         {/* =========== PROJECT GITHUB =========== */}
-        <a href={github} className="flex gap-2 mt-4 hover:text-red-800 hover:dark:text-red-500 cursor-pointer transition-all duration-300">
-          <CiLink className="text-2xl self-center" />
-          <span className="text-xs self-center">
-            View Github
+        {!github ? (
+          <span className="flex gap-2 mt-4">
+            <LiaIndustrySolid className="text-2xl self-center" />
+            <span className="text-xs self-center">
+            {company}
+            </span>
           </span>
-        </a>
+        ) : (
+          <a href={github} className="flex gap-2 mt-4 hover:text-red-800 hover:dark:text-red-500 cursor-pointer transition-all duration-300">
+            <CiLink className="text-2xl self-center" />
+            <span className="text-xs self-center">
+              View Github
+            </span>
+          </a>
+        )}
       </div>
     </div>
   );

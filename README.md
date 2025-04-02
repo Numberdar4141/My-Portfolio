@@ -2,7 +2,7 @@
 # DSFolio V1
 
 <center>
-    <img src="/public/cover.png" alt="DSFolio" />
+    <img src="/public/photo1.jpg" alt="naveen" />
 </center>
 
 <center>
@@ -17,11 +17,11 @@ https://dsfolio-v1.vercel.app/
 ## Installation
 1. Clone the repository
     ```bash 
-    git clone https://github.com/dsbalico/dsfolio-v1.git
+    git clone https://github.com/Numberdar4141/My-Portfolio.git
     ```
 2. Change into the project directory
     ```bash
-    cd dsfolio-v1
+    cd My-Portfolio
     ```
 3. Install dependencies
     ```bash

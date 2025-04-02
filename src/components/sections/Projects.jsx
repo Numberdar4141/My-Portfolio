@@ -16,6 +16,7 @@ function Projects() {
             technologies={project.technologies}
             github={project.github}
             link={project.link}
+            company={project.company}
           />
         );
       })}

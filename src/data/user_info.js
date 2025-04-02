@@ -1,110 +1,113 @@
 const info = {
     // ============ MAIN DETAILS ============
     main: {
-        name: "Daniel Shan Balico",
-        description: "I am a software engineer with expertise in full-stack web development. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies. I enjoy solving complex problems and learning new skills. I am passionate about creating high-quality code that follows best practices and industry standards.",
-        role: "Full-Stack Developer",
-        photo: "../photo.webp",
-        email: "danielshan.balico@gmail.com",
+        name: "Naveen Kumar",
+        description: "A proactive Frontend Developer with expertise in React.js and Next.js, dedicated to building scalable, secure, and high-performance web applications.",
+        role: "Frontend Developer",
+        photo: "../photo1.jpg",
+        email: "naveengujjar3412@gmail.com",
+        icon: "../icon.webp"
     },
 
     // ============ SOCIAL LINKS ============
     socials: {
-        twitter: "https://twitter.com/dsbalico",
-		github: "https://github.com/dsbalico",
-		linkedin: "https://linkedin.com/in/dsbalico",
-		instagram: "https://instagram.com/dsbalico",
-		facebook: "https://facebook.com/dsbalico",
+        twitter: "https://x.com/naveeng46874743",
+		github: "https://github.com/Numberdar4141",
+		linkedin: "https://www.linkedin.com/in/naveen-gujjar/",
+		instagram: "https://instagram.com/naveengujjar4141",
+        whatsapp : "https://wa.me/918295032650"
     },
 
     // ============ PROJECTS ============
     projects: [
         {
-			title: "Pseudocode to C",
-			description: "Pseudocode to C is a web app that translates pseudocode into C code, aiding in the transition from high-level logic to a lower-level language.",
-            technologies: "React, Tailwind, Flask, SpaCy",
-			github: "https://github.com/dsbalico/pseudocode-to-c",
-            link: "https://pseudocode-to-c.netlify.app/"
-		},
+            title: "Car Classifieds Platform",
+            description: "Led the development of a car classifieds platform serving 20,000+ active users, improving load times by 40%. Enhanced search features, increasing product discoverability by 25%.",
+            technologies: "Next.js, Tailwind CSS, Material UI",
+            duration: "May 2024 - Oct 2024",
+            link:"https://themotorpedia.com/",
+            company:"MotorPedia"
+        },
 
         {
-			title: "YouShare",
-			description: "Developed to learn full-stack web development using Nuxt3, Express, and PostgreSQL in fulfillment of my internship requirements.",
-			technologies: "Nuxt, Tailwind, Express, PostgreSQL",
-			github: "https://github.com/dsbalico/YouShare",
-            link: "https://github.com/dsbalico/YouShare"
-		},
+            title: "Wheat Grinding Platform - APP",
+            description: "Developed a wheat grinding platform enabling customers to order various types of freshly milled wheat with doorstep delivery. Optimized the ordering process, reducing checkout time by 35%. ",
+            technologies: "React.js, Tailwind CSS, Material UI",
+            duration: "Jan 2025 - Feb 2025",
+            link: "Link",
+            company: "SabPure"
+        },
 
         {
-			title: "Draw & Classify",
-			description: "Draw & Classify is a web application designed to test my machine learning model, which classifies drawn letters, digits, or shapes.",
-			technologies: "React, Tailwind, Tensorflow",
-			github: "https://github.com/dsbalico/letter-digit-shape-classification",
-            link: "https://letterdigitshape-classification.netlify.app/"
+            title: "Car Dealer Website Dynamic Template",
+            description: "Created a customizable car dealer website template, reducing setup time by 50% for over 100 clients. Improved client satisfaction by 40% through API-driven customization features. ",
+            technologies: "Next.js, API Integration",
+            duration: "Jul 2024 - Present",
+           link:"https://dewarsgarage.themotorpedia.com/",
+            company:"MotorPedia"
+        },
+
+		{
+			title: "WCTM Hacthaon Club",
+			description: "Developed a dynamic and user-friendly website for our college hackathon club, serving as a central hub for event information, past experiences, and community engagement.",
+			technologies: "React, Tailwind",
+			github: "https://github.com/Numberdar4141/Hackathon-Club",
+            link: "https://wctmhackthaonclub.netlify.app/"
 		},
 
 		{
-			title: "Chatroom",
-			description: "Chatroom is a simple online chatting web application where you can create chat rooms and have a fun conversation with a group of people.",
-			technologies: "React, Tailwind, Firebase",
-			github: "https://github.com/dsbalico/chatroom",
-            link: "https://thechatroom.netlify.app/"
+			title: "Wheat Grinding Website",
+			description: "Developed a user-friendly e-commerce website for wheat grinding services, allowing customers to order various types of freshly milled wheat online.",
+			technologies: "React.js, Tailwind CSS, Material UI",
+		company: "SabPure",
+            link: "https://sabpure.com/"
 		},
 
 		{
-			title: "Sudoku Solver",
-			description: "Sudoku Solver is a web application that can generate or solve sudoku problems using simulated annealing, an optimization algorithm.",
-			technologies: "React, Tailwind, TypeScript",
-			github: "https://github.com/dsbalico/sudoku-solver-using-simulated-annealing",
-            link: "https://sudoku-solver-sa.netlify.app/"
-		},
-
-		{
-			title: "Probability Pick",
-			description: "Probability Pick is a PCSO Lotto Number Generator that calculates the likelihood of selecting winning numbers based on historical draw data.",
-			technologies: "React, Tailwind, Flask",
-			github: "https://github.com/dsbalico/pcso-lotto-number-generator",
-            link: "https://probability-pick.netlify.app/"
+			title: "Refoodify",
+			description: "Refoodify helps in saving money by tracking food waste. Its a smart system connecting restaurants with people who want to purchase food at less cost.",
+			technologies: "React, Node.js, MongoDB",
+			github: "https://github.com/Numberdar4141/Refoodify",
+            link: "https://refoodify.netlify.app/"
 		},
     ],
 
     // ============ EDUCATION ============
     education: [
         {
-            school: "Technological University of the Philippines",
-            degree: "Bachelor of Science in Computer Science",
-            duration: "2020 - 2024",
-            image: "tup.webp"
+            school: "World College of Technology and Management",
+            degree: "Bachelor of Technology",
+            duration: "2021 - 2025",
+            image: "WCTM.webp"
         },
         {
-            school: "STI College",
-            degree: "ICT in Mobile App and Web Development",
-            duration: "2018 - 2020",
-            image: "sti.webp"
+            school: "Prince Career Pioneer", 
+            degree: "Senior Secondary School",
+            duration: "2019 - 2021",
+            image: "PCPLogo.png"
         },
     ],
 
     // ============ EXPERIENCE ============
     experience: [
         {
-            position: "Full-Stack Developer Intern",
-            company: "Centralized Cloud Computing International, Inc.",
-            duration: "Mar 2024 - Jun 2024 (3 Months)",
-            image: "ccci.webp",
+            position: "Software Development Engineer",
+            company: "MotorPedia, Gurgaon",
+            duration: "Jun 2024 - Present",
+            image: "MpFav.ico",
             descriptions: [
-                "Completed an extensive training program in full-stack web development.",
-                "Actively contributed to the ongoing development of a web application.",
-                "Mentored by senior developers on best practices and code optimization.",
+                "Developed a dynamic car marketplace using React.js,Next.js, and Tailwind CSS, boosting lead generation by 30%.",
+                "Enhanced the car-buying experience for over 10,000 customers by building responsive web applications.",
+                "Boosted user interaction by 25% through performance optimization, reducing load times."
             ]
         },
         {
-            position: "Work Immersion - Web Developer",
-            company: "St. Peter Velle Technical Training Center",
-            duration: "Nov 2019 - Dec 2019 (1 Month)",
-            image: "spvttc.webp",
+            position: "Internship - Software Engineer",
+            company: "MotorPedia, Gurgaon",
+            duration: "Feb 2024 - May 2024",
+            image: "MpFav.ico",
             descriptions: [
-                "Developed Python scripts to automate document score calculations.",
-                "Developed a company website as part of an ICT-related work immersion program."
+                "Improved platform engagement by 25% and benefited 15,000+ clients by leveraging web development and data analytics."
             ]
         },
     ],
@@ -112,69 +115,33 @@ const info = {
     // ============ CERTIFICATES ============
     certificates: [
         {
-            title: "Foundations of Cybersecurity Certificate",
-            description: "Provided by Coursera & Authorized by IBM",
-            icon: "ibm",
-            link: "https://www.coursera.org/account/accomplishments/records/SF2PPLNVTH6R",
-        },
-        {
-            title: "Git and GitHub Essentials",
-            description: "Provided by Coursera & Authorized by IBM",
-            icon: "ibm",
-            link: "https://www.credly.com/badges/fa00026a-4db5-4269-ab4f-340f5382ac03",
-        },
-        {
-            title: "Crash Course on Python Certificate",
-            description: "Provided by Coursera & Authorized by Google",
-            icon: "google",
+            title: "MERN Stack Development Certificate",
+            description: "Provided by CyberCure Technologies",
+            icon: "cybercure",
             link: "https://www.coursera.org/account/accomplishments/verify/S9773NBEK4S6"
         },
         {
-            title: "Technical Support Fundamentals Certificate",
-            description: "Provided by Coursera & Authorized by Google",
-            icon: "google",
-            link: "https://www.coursera.org/account/accomplishments/verify/P9EH5HNYRESZ"
+            title: "Master in React.js Certificate",
+            description: "Provided by Vodafone Intelligent Solutions (VOIS)",
+            icon: "vodafone",
+            link: "https://www.credly.com/badges/fa00026a-4db5-4269-ab4f-340f5382ac03",
         },
         {
-            title: "Introduction to Web Development with HTML, CSS, JavaScript Certificate",
-            description: "Provided by Coursera & Authorized by IBM",
-            icon: "ibm",
-            link: "https://www.credly.com/badges/7b88eb00-e1f9-4ae6-be2a-3b2ae8983c44"
-        },
-        {
-            title: "Introduction to Cloud Computing Certificate",
-            description: "Provided by Coursera & Authorized by IBM",
-            icon: "ibm",
-            link: "https://www.credly.com/badges/514b694a-8dc4-418d-9af4-61908dc29ca8"
-        },
-        {
-            title: "Django Application Development with SQL and Databases Certificate",
-            description: "Provided by Coursera & Authorized by IBM",
-            icon: "ibm",
-            link: "https://www.credly.com/badges/a36dd8a3-1050-4c4e-bcef-97b39babf55e"
-        },
-        {
-            title: "Front-End Developer (React) Certificate",
-            description: "Provided by HackerRank",
-            icon: "hackerrank",
-            link: "https://www.hackerrank.com/certificates/631ac3acf267"
-        },
-        {
-            title: "Software Engineer Certificate",
-            description: "Provided by HackerRank",
-            icon: "hackerrank",
-            link: "https://www.hackerrank.com/certificates/efdbdd44eb7d"
+            title: "Campus Ambassador Program Certificate",
+            description: "Provided by IIT Kgp",
+            icon: "iitkgp",
+            link: "https://www.credly.com/badges/514b694a-8dc4-418d-9af4-61908dc29ca8",
         }
     ],
 
     // ============ CONTACT ============
     contact: {
         title: "Let's Get in Touch: Ways to Connect with Me",
-        description: "Thank you for your interest in getting in touch with me. I welcome your feedback, questions, and suggestions. If you have a specific question or comment, please feel free to email me directly at danielshan.balico@gmail.com. I make an effort to respond to all messages within 24 hours, although it may take me longer during busy periods. Finally, if you prefer to connect on social media, you can connect with me using the social media links below.",
+        description: "Thank you for your interest in getting in touch with me. I welcome your feedback, questions, and suggestions. If you have a specific question or comment, please feel free to email me directly at naveengujjar3412@gmail.com. I make an effort to respond to all messages within 24 hours, although it may take me longer during busy periods. Finally, if you prefer to connect on social media, you can connect with me using the social media links below.",
     },
 
     // ============ FOOTER ============
-    footer: "© 2024 Daniel Shan Balico. All Rights Reserved"
+    footer: "© 2024 Naveen Kumar. All Rights Reserved"
 }
 
 export default info

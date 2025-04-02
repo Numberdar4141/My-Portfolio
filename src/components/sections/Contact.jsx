@@ -1,6 +1,6 @@
 import user_info from "../../data/user_info.js";
 
-import { FaSquareXTwitter, FaLinkedin } from "react-icons/fa6";
+import { FaSquareXTwitter, FaLinkedin, FaWhatsapp } from "react-icons/fa6";
 import { FaFacebook, FaInstagram } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 
@@ -24,15 +24,19 @@ function Contact() {
       <div className="mt-12">
         {/* =========== FACEBOOK =========== */}
         <a
-          href={user_info.socials.facebook}
-          className="flex gap-4 text-zinc-600 dark:text-zinc-300 hover:dark:text-zinc-300  hover:text-zinc-700 transition-all duration-300"
+          href={user_info.socials.whatsapp}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex gap-4 text-zinc-600 dark:text-zinc-300 hover:dark:text-zinc-300 hover:text-zinc-700 transition-all duration-300"
         >
-          <FaFacebook className="self-center text-lg text-red-800 dark:text-red-500" />
-          <span className="self-center">Follow on Facebook</span>
+          <FaWhatsapp className="self-center text-lg text-red-800 dark:text-red-500" />
+          <span className="self-center">Message on WhatsApp</span>
         </a>
 
         {/* =========== X =========== */}
         <a
+           target="_blank"
+          rel="noopener noreferrer"
           href={user_info.socials.twitter}
           className="flex gap-4 text-zinc-600 dark:text-zinc-300 hover:dark:text-zinc-300 hover:text-zinc-700 transition-all duration-300 mt-4"
         >
@@ -42,6 +46,8 @@ function Contact() {
         
         {/* =========== INSTAGRAM =========== */}
         <a
+           target="_blank"
+          rel="noopener noreferrer"
           href={user_info.socials.instagram}
           className="flex gap-4 text-zinc-600 dark:text-zinc-300 hover:dark:text-zinc-300 hover:text-zinc-700 transition-all duration-300 mt-4"
         >
@@ -51,6 +57,8 @@ function Contact() {
 
         {/* =========== LINKEDIN =========== */}
         <a
+           target="_blank"
+          rel="noopener noreferrer"
           href={user_info.socials.linkedin}
           className="flex gap-4 text-zinc-600 dark:text-zinc-300 hover:dark:text-zinc-300 hover:text-zinc-700 transition-all duration-300 mt-4"
         >

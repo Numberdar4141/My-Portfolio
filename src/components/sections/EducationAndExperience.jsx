@@ -3,7 +3,9 @@ import { FaLandmark } from "react-icons/fa";
 import { FaBuildingUser } from "react-icons/fa6";
 import { FcGoogle } from "react-icons/fc";
 import { PiCertificateFill } from "react-icons/pi";
-import { SiHackerrank, SiIbm } from "react-icons/si";
+import { SiHackerrank, SiVodafone } from "react-icons/si";
+import cyber from "../../../public/cyber.jfif"
+import IITKgp from "../../../public/iitkgp.jfif";
 
 function EducationAndExperience() {
   return (
@@ -69,17 +71,17 @@ function EducationAndExperience() {
               {user_info.certificates.map((cert, index) => {
                 return (
                   <div className="hs-carousel-slide relative" key={index}>
-                    {cert.icon === "ibm" ? (
-                      <SiIbm className="text-blue-500 absolute right-5 top-0 text-5xl" />
-                    ) : cert.icon === "google" ? (
-                      <FcGoogle className="text-blue-500 absolute right-5 top-3 text-3xl" />
+                    {cert.icon === "cybercure" ? (
+                   <img className="absolute right-5 top-3 w-9" src={cyber} alt="CyberCure" />
+                    ) : cert.icon === "vodafone" ? (
+                      <SiVodafone className="text-red-500 absolute right-5 top-3 text-3xl" />
                     ) : (
-                      <SiHackerrank className="text-green-500 absolute right-5 top-3 text-3xl" />
+                      <img className="absolute right-5 top-3 w-9" src={IITKgp} alt="CyberCure" />
                     )}
 
                     <div className="flex justify-center items-center h-full bg-gray-100 p-6 dark:bg-neutral-900">
                       <div className="hs-tooltip [--placement:bottom] inline-block">
-                        <a href={cert.link} target="_blank" rel="noreferrer" className="hs-tooltip-toggle text-center text-gray-800 dark:text-white hover:text-red-800 hover:dark:text-red-500">
+                        <a  target="_blank" rel="noreferrer" className="hs-tooltip-toggle text-center text-gray-800 dark:text-white hover:text-red-800 hover:dark:text-red-500">
                           {/* =========== CERTIFICATE NAME =========== */}
                           <p className=" transition duration-700 px-6 font-bold">
                             {cert.title}
@@ -91,9 +93,9 @@ function EducationAndExperience() {
                         </a>
 
                         {/* =========== TOOLTIP TEXT =========== */}
-                        <span className="hs-tooltip-content hs-tooltip-shown:opacity-100 hs-tooltip-shown:visible opacity-0 transition-opacity inline-block absolute invisible z-10 py-1 px-2 bg-white border dark:border-zinc-800 dark:bg-zinc-950 text-xs font-medium dark:text-white rounded shadow-sm" role="tooltip">
+                        {/* <span className="hs-tooltip-content hs-tooltip-shown:opacity-100 hs-tooltip-shown:visible opacity-0 transition-opacity inline-block absolute invisible z-10 py-1 px-2 bg-white border dark:border-zinc-800 dark:bg-zinc-950 text-xs font-medium dark:text-white rounded shadow-sm" role="tooltip">
                           Open Certificate
-                        </span>
+                        </span> */}
                       </div>
                     </div>
                   </div>
@@ -190,7 +192,7 @@ function EducationAndExperience() {
                   <div className="grow p-2 pb-8">
                     {/* =========== COMPANY NAME =========== */}
                     <h3 className="flex items-center gap-x-2 font-semibold text-zinc-800 dark:text-white">
-                      <img className="w-9 rounded-full" src={exp.image} alt="Company Logo" />
+                      <img className="w-9 bg-white object-contain p-1 rounded-full" src={exp.image} alt="Company Logo" />
                       <div className="leading-5">
                         {exp.company}
                         {/* =========== POSITION =========== */}
